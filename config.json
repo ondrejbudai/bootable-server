@@ -1,0 +1,14 @@
+{
+  "blueprint": {
+    "customizations": {
+      "user": [
+        {
+          "name": "foo",
+          "password": "bar",
+          "groups": ["wheel"],
+	  "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPB1jFl4p6FTBixHT6wOk6X8nj/Z7eoPNQE/M0wK485K ondrej@budai.cz"
+        }
+      ]
+    }
+  }
+}

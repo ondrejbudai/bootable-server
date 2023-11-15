@@ -1,0 +1,10 @@
+[Unit]
+Description="My Webserver"
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+ExecStart=/usr/bin/caddy file-server --root /usr/share/www
+
+[Install]
+WantedBy=multi-user.target
